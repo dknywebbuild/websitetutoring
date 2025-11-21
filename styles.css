@@ -1,0 +1,4 @@
+body { font-family: Arial; }
+.nav a { margin-right: 10px; }
+.container { max-width: 900px; margin: auto; padding: 20px; }
+.section { margin-bottom: 40px; }

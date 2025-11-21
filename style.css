@@ -1,0 +1,79 @@
+/* Pinetree Tutoring — simple GitHub Pages theme */
+:root{
+  --green:#2a5c2a;
+  --light:#f7f9f7;
+  --text:#1b1f1b;
+  --muted:#5b665b;
+  --card:#ffffff;
+  --border:#e6ece6;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  color:var(--text);
+  background:var(--light);
+  line-height:1.6;
+}
+
+.container{
+  max-width:900px;
+  margin:0 auto;
+  padding:24px;
+}
+
+.site-header{
+  background:#fff;
+  border-bottom:1px solid var(--border);
+}
+.logo{
+  margin:0;
+  font-size:2rem;
+  color:var(--green);
+}
+.contact{
+  margin:.25rem 0 1rem 0;
+  color:var(--muted);
+}
+.contact a{color:inherit; text-decoration:none}
+.contact a:hover{text-decoration:underline}
+
+.cta{
+  display:inline-block;
+  background:var(--green);
+  color:#fff;
+  padding:10px 14px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+}
+.cta:hover{opacity:.9}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:18px 18px;
+  margin:18px 0;
+  box-shadow:0 1px 3px rgba(0,0,0,.04);
+}
+
+h2{
+  margin-top:0;
+  color:var(--green);
+}
+
+.faq-item + .faq-item{
+  border-top:1px dashed var(--border);
+  padding-top:10px;
+  margin-top:10px;
+}
+
+.site-footer{
+  border-top:1px solid var(--border);
+  background:#fff;
+  margin-top:24px;
+}
+.site-footer p{margin:.25rem 0}
+.site-footer a{color:var(--green)}
